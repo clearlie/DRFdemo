@@ -36,3 +36,7 @@ class Movie(models.Model):
     class Meta:
         db_table = 't_movie'
         verbose_name_plural = '电影'
+
+
+class Student(models.Model):
+    name = models.CharField(max_length=128)
